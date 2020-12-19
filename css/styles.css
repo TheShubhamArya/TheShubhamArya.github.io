@@ -62,18 +62,18 @@ hr{
   border-radius:50%;
   border-style: solid;
   position: relative;
-  top: 50px;
+  top: 60px;
 }
 
 .nameHeader{
-  font-size: 80px;
-  margin-top: 50px;
+  font-size: 3.5em;
+  margin-top: 60px;
   margin-bottom: 60;
   position: relative;
 }
 
 .short-bio{
-  font-size: 120%;
+  font-size: 1.5em;
   font-weight: 100%;
 }
 
@@ -136,7 +136,8 @@ hr{
 .bottom-container{
   height: 100px;
   padding: 20px 0 5px 0;
-  /*
+  /*background-color: black;
+  color: white;
 
   height: 200px;
   width: 200px;
@@ -165,8 +166,8 @@ hr{
 }
 
 .contact-image{
-  height: 30px;
-  width: 30px;
+  height: 2.5%;
+  width: 2.5%;
 }
 .btn {
    background: #11CDD4;

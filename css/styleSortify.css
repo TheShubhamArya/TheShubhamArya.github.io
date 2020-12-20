@@ -74,8 +74,6 @@ h1{
 
 /*phone image*/
 .phone-image{
-  margin: 0 15% 0 0;
-  padding: 0;
   /*transform: rotate(20deg);*/
 }
 .phone-image2{
@@ -94,11 +92,17 @@ h1{
   background-color: #ff4c68;
   color: white;
 }
+.carousel-inner{
+  margin-left: 30%;
+  margin-right: 30%;
+}
 .carousel-item{
-  padding: 2% 15%;
+  /*margin-left: 15%;
+  margin-right: 15%;
+  /*padding: 2% 15%;*/
 }
 .carousel-images{
-  padding: 0 10% 0;
+  padding: 0;
 }
 .testimonial-text{
   font-family: "Montserrat-Bold";

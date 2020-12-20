@@ -12,12 +12,17 @@ h1{
 
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 1% 15% 4%;
 }
 
 #title{
-  background-color: #3232ff;/*green;/*#ff4c68;*/
+  background-color: #32cd32;/*#3232ff;/*green;/*#ff4c68;*/
   color: white;
+}
+.slogan{
+  font-family: "Montserrat-Black";
+  font-size: 2.5em;
+  font-weight: 550;
 }
 .subtitle{
   font-family: "Montserrat-Black";
@@ -36,7 +41,9 @@ h1{
   padding: 0 18px;
 }
 .nav-link{
-  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 /* Download Button*/

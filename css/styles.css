@@ -18,22 +18,12 @@ p{
   line-height: 1.5;
 }
 
-
 .container-fluid{
   padding: 1% 15%;
 }
 #title{
   background-color: white;/*green;/*#ff4c68;*/
   color: black;
-}
-
-.gifs{
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin: 20px;
-  margin-top: 0;
-  margin-bottom: 3%;
 }
 
 hr{
@@ -86,13 +76,14 @@ hr{
 
 .top-container{
   position: relative;
+  padding: 1% 15%;
   /*padding-top: 40px;*/
-  height: 40%;
-  /*width: 60%;*/
+  height: 70%;
+  /*width: 60%;
   margin: 0 auto;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 0%;
+  margin-bottom: 0%;*/
 }
 
 .middle-container{

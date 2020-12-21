@@ -12,6 +12,7 @@ a{
 a:hover{
   /*color: #000080;*/
 }
+
 p{
   color: black;
   line-height: 1.5;
@@ -26,13 +27,21 @@ h1{
 }
 h2{
   font-size: 3rem;
-  color: #66BFBF;
-  font-weight: normal;
+  /*color: #66BFBF;*/
+  font-weight: 500;
 }
 h3{
   font-size: 50%;
   font-weight: lighter;
   color: #202020;
+}
+
+.container-fluid{
+  padding: 1% 15%;
+}
+#title{
+  background-color: white;/*green;/*#ff4c68;*/
+  color: black;
 }
 
 .gifs{
@@ -51,7 +60,7 @@ hr{
 }
 
 .profilePic{
-  height: 15rem;/*200px;*/
+  height: 15rem;
   width: 15rem;
   border-radius:50%;
   border-style: solid;
@@ -60,12 +69,15 @@ hr{
 
 .nameHeader{
   font-size: 3.5em;
-  margin-top: 0;
-  margin-bottom: 30;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
   position: relative;
 }
 
 .short-bio{
+  margin-top: 2%;
+  margin-bottom: 10%;
   font-size: 1.5em;
   font-weight: 100%;
 }
@@ -92,21 +104,26 @@ hr{
 .top-container{
   position: relative;
   /*padding-top: 40px;*/
-  width: 60%;
+  height: 40%;
+  /*width: 60%;*/
   margin: 0 auto;
-  margin-bottom: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 0%;
 }
 
 .middle-container{
-  margin: 0 auto 5%;
+  margin: 7% auto 2%;
 }
 
 .bottom-container{
   height: 100px;
-  padding: 20px 0 5px 0;
+  padding: 0 0 2% 0;
 
 }
 .occupation{
+  font-size: 1.5em;
+  font-weight: 600;
   color: black;
 }
 
@@ -130,6 +147,10 @@ hr{
   height: 2.5rem;
   width: 2.5rem;
 }
+.contact-container{
+  height: 100px;
+  margin: 2% 10% 0;
+}
 /*Nav bar */
 .navbar{
   padding: 0 0 4.5rem;
@@ -146,10 +167,22 @@ hr{
   font-size: 1.1rem;
   color: #0a0a0a;
 }
-.container-fluid{
-  padding: 1% 15%;
-}
-#title{
-  background-color: white;/*green;/*#ff4c68;*/
+/* Hover color for font awesome*/
+.fa-inbox:hover{
   color: black;
+}
+.fa-linkedin:hover{
+  color: #0b5e86;
+}
+.fa-instagram:hover{
+  color: #833AB4;
+}
+.fa-facebook:hover{
+  color: #898F9C;
+}
+.fa-github:hover{
+  color: orange;
+}
+.fa-app-store-ios:hover{
+  color: 	#05e3f5;
 }

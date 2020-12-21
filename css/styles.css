@@ -17,24 +17,7 @@ p{
   color: black;
   line-height: 1.5;
 }
-h1{
-  font-size: 5rem; /*100% = 16px = 1em, to make it 80px, make it 500%*/
-  margin-top: 300px;
-  /*width: 20%;*/
-  /*margin: 0 auto 0 auto;*/
-  font-family: serif;
-  color: black;
-}
-h2{
-  font-size: 3rem;
-  /*color: #66BFBF;*/
-  font-weight: 500;
-}
-h3{
-  font-size: 50%;
-  font-weight: lighter;
-  color: #202020;
-}
+
 
 .container-fluid{
   padding: 1% 15%;

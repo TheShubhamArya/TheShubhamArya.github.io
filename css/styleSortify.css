@@ -2,26 +2,29 @@ body{
   font-family: "Montserrat";
 }
 h1{
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: bold;
-}
 
+}
 .header{
   margin-top: 10%;
 
 }
 .container-fluid{
-  padding:1% 15% 4%;
+  padding:1% 15% 2%;
 }
 
 #title{
+  margin-right: 0;
   background-color: #ff4c68;
   color: white;
 }
 #features{
   margin: 4% 10% 4%;
+}
+.display-title-sortify{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
 }
 .slogan{
   font-family: "Montserrat-Black";
@@ -47,7 +50,6 @@ h1{
 .feature-box{
   margin: 5% 0 5%;
   text-align: center;
-  text-align: center;
 }
 
 /* Navighation Bar */
@@ -72,14 +74,6 @@ h1{
   height: 12%;
 }
 
-/*phone image*/
-.phone-image{
-  /*transform: rotate(20deg);*/
-}
-.phone-image2{
-  margin: 0 15% 0 0;
-  /*transform: rotate(-20deg);*/
-}
 /* Icon styling */
 .icon-styling{
   font-size: 1em;
@@ -93,8 +87,10 @@ h1{
   color: white;
 }
 .carousel-inner{
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 10%;
+  margin-bottom: 4%;
+  /*margin-left: 30%;
+  margin-right: 30%;*/
 }
 .carousel-item{
   /*margin-left: 15%;
@@ -120,4 +116,35 @@ h1{
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+/* About Sortify */
+.description-title{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+#about-sortify{
+  margin-right: 20%;
+  margin-left: 20%;
+  color: 	#202020;
+}
+.heading-sortify{
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  font-size: 1.8em;
+  color: black;
+}
+/* Mockup images*/
+#mockup{
+  margin: 4% 12% 4%;
+}
+.mockup-box{
+  margin: 2.5% 0 2.5%;
+}
+.mockup-image{
+  margin: 2.5% 0 2.5%;
+  padding-left: 0;
+  padding-right: 0;
+  height: 600px;
 }

@@ -141,10 +141,23 @@ h1{
 }
 .mockup-box{
   margin: 2.5% 0 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .mockup-image{
   margin: 2.5% 0 2.5%;
   padding-left: 0;
   padding-right: 0;
   height: 600px;
+}
+/* Footer */
+#footer{
+  text-align: center;
+}
+.copyright{
+  color: #161616;
+  font-size: 0.75 rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0;
 }

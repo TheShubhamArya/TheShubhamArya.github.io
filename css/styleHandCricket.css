@@ -84,6 +84,7 @@ h1{
 }
 .feature-box{
   text-align: center;
+  margin: 2% 0 2%;
 }
 .feature-title{
   margin-top: 5%;
@@ -96,18 +97,33 @@ h1{
   color: #8f8f8f;
 }
 
+/*Mock ups*/
+#mockup{
+  margin: 4% 10% 4%;
+}
+.mockup-box{
+  margin: 2% 0 2%;
+}
+.mockup-image{
+  /*margin: 2.5% 0 2.5%;
+  padding-left: 20px;
+  padding-right: 0px;*/
+  margin: 4% 15% 4%;
+  height: 600px;
+}
 /*Scroll spy*/
 .list-container{
-  margin-right: 85%;
-  margin-left: 0;
+  /*margin-right: 85%;
+  margin-left: 0;*/
 }
 .list-group{
   margin: auto;
   width: 150px;
+  margin-top: 10%;
   /*margin: 0 20% 0;*/
 }
 .hand-cricket-text{
-  padding: 1% 20% 2%;
+  padding: 1% 15% 2% 10%;
 }
 
 #footer{

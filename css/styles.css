@@ -6,13 +6,8 @@ body{
 }
 a{
   color:  red;
-  margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
-  /*color: #000080;*/
-}
-
 p{
   color: black;
   line-height: 1.5;
@@ -24,12 +19,6 @@ p{
 #title{
   background-color: white;/*green;/*#ff4c68;*/
   color: black;
-}
-
-hr{
-  border: 60px dotted #FFFF99;
-  border-bottom: none;
-  width: 12.5%;
 }
 
 .profilePic{
@@ -55,35 +44,11 @@ hr{
   font-weight: 100%;
 }
 
-.intro{
-  width: 40%;
-  margin: auto;
-  padding-bottom: 40px;
-}
-.compImage{
-  height: 25%;
-  width: 25%;
-  border-radius: 50%;
-  float: left;
-  padding-right: 3%;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
 .top-container{
   position: relative;
   padding: 1% 15%;
   /*padding-top: 40px;*/
   height: 70%;
-  /*width: 60%;
-  margin: 0 auto;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 0%;*/
 }
 
 .middle-container{
@@ -95,15 +60,12 @@ hr{
   padding: 0 0 2% 0;
 
 }
-.occupation{
-  font-size: 1.5em;
-  font-weight: 600;
-  color: black;
+.contact-link{
+  margin: 10px 20px;
 }
-
 .copyright{
   color: #161616;
-  font-size: 0.75 rem;
+  font-size: 0.85 rem;
   margin-bottom: 0;
   margin-top: 20px;
   padding: 0;
@@ -112,11 +74,10 @@ hr{
   width: 30%;
   margin: 10px auto;
   color: gray;
-  font-size: 50%;
+  font-size: 75%;
   /*margin-top: 10px;*/
   padding: 0;
 }
-
 .contact-image{
   height: 2.5rem;
   width: 2.5rem;
@@ -125,7 +86,7 @@ hr{
   height: 100px;
   margin: 2% 10% 0;
 }
-/*Nav bar */
+/* Navighation Bar */
 .navbar{
   padding: 0 0 4.5rem;
 }
@@ -134,15 +95,15 @@ hr{
 }
 .nav-item{
   padding: 0 18px;
+  /*color: black;*/
 }
 .nav-link{
   font-family: "Ubuntu";
-  font-weight: 550;
+  font-weight: 500;
   font-size: 1.1rem;
-  color: #0a0a0a;
 }
 /* Hover color for font awesome*/
-.fa-inbox:hover{
+.fa-envelope-square:hover{
   color: black;
 }
 .fa-linkedin:hover{

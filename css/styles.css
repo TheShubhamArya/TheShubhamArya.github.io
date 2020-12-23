@@ -4,6 +4,11 @@ body{
   font-family: "Montserrat-Black";
   background-color: white;
 }
+.wrapper{
+  margin: 1% auto 2%;
+  width: 75%;
+  background-color: red;
+}
 a{
   color:  red;
   text-decoration: none;

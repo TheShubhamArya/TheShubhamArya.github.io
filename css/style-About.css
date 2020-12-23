@@ -1,6 +1,9 @@
 .container-fluid{
   padding: 1% 15% 2%;
 }
+h3{
+
+}
 #title{
   background-color: #43A6C6;/*green;/*#ff4c68;*/
   /*color: black;*/
@@ -22,16 +25,13 @@
   text-align: center;
 }
 
-.intro{
-
-}
-
 #introduction{
   margin:5% 15% 2%;
 }
 
 .btn-dark{
   background-color: #43A6C6;
+  margin-bottom: 10%;
 }
 
 .profile-images{
@@ -41,10 +41,10 @@
 }
 
 hr{
-  border: 2px dotted #FFFF99;
+  border: 2px dotted #43A6C6;
   border-bottom: none;
-  width: 50%;
   text-align: center;
+  margin: 0 25%;
 }
 
 
@@ -72,26 +72,46 @@ hr{
 }
 
 .compImage-left{
-  height: 25%;
-  width: 25%;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   float: left;
-  padding-right: 3%;
+  padding-right: 0;
+  /*padding-bottom: 100px;*/
+  margin-right: 2%;
 }
 .compImage-right{
-  height: 25%;
-  width: 25%;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   float: right;
-  padding-right: 3%;
+  padding-right: 0;
+  margin-left: 2%;
+}
+.work-image-left{
+  height: 60px;
+  width: 60px;
+  float: left;
+  border-radius: 50%;
+  padding-right: 0;
+  margin-right: 2%
 }
 
 .skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
+  /*width: 50%;*/
+  margin: 2% 25% 2%;
   text-align: left;
 }
+#work{
+  margin: 2.5% 15% 0;
+  padding: 0 10% 0%;
+}
+#education{
+  margin: 2.55% 25% 2.5%;
+}
+
 .contact-container{
+  margin-top: 2%;
   text-align: center;
   height: 100px;
 }

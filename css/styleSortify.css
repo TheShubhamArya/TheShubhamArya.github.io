@@ -157,6 +157,7 @@ body{
     font-size: 2rem;
     line-height: 1.05;
     font-weight: 600;
+    padding-bottom: 20px;
   }
   .download-button{
     margin: 5% 5% 2% 0;
@@ -189,7 +190,6 @@ body{
   }
   h1{
     text-align: center;
-    padding-bottom: 20px;
   }
   .heading-sortify{
     font-family: "Montserrat-Bold";
@@ -207,6 +207,9 @@ body{
   }
   .navbar{
     padding: 0 0 2rem;
+  }
+  .navbar-brand{
+    font-size: 1.1rem;
   }
   p{
     font-size: 0.95em;

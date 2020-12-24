@@ -14,11 +14,11 @@
   padding: 1% 25% 2%;
 }
 .contact-container{
-  padding: 25px 0;
-  text-align: center;
+  height: 100px;
+  margin: 10% 5% 0;
 }
 .contact-link{
-  margin: 10px 20px;
+  margin: 10px 10px;
 }
 .display-quote{
   color: white;
@@ -97,6 +97,9 @@ hr{
 @media (max-width: 500px) { /*For iPhone size*/
   .container-fluid{
     padding: 1% 12% 2%;
+  }
+  .contact-link{
+    margin: 0px 12px;
   }
   .compImage-left{
     height: 50px;

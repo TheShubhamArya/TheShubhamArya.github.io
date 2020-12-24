@@ -1,72 +1,26 @@
+a{
+  color:  red;
+  text-decoration: none;
+}
 body{
   margin-top: 0;
   text-align: center;
   font-family: "Montserrat-Black";
   background-color: white;
 }
-.wrapper{
-  margin: 1% auto 2%;
-  width: 75%;
-  background-color: red;
-}
-a{
-  color:  red;
-  text-decoration: none;
-}
-p{
-  color: black;
-  line-height: 1.5;
-}
-
-.container-fluid{
-  padding: 1% 15% 2%;
-}
-#title{
-  background-color: white;/*green;/*#ff4c68;*/
-  color: black;
-}
-
-.profilePic{
-  height: 15rem;
-  width: 15rem;
-  border-radius:50%;
-  border-style: solid;
-  position: relative;
-}
-
-.nameHeader{
-  font-size: 3.5em;
-  font-weight: bold;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  position: relative;
-}
-
-.short-bio{
-  margin-top: 2%;
-  margin-bottom: 10%;
-  font-size: 1.5em;
-  font-weight: 100%;
-}
-
-.top-container{
-  position: relative;
-  padding: 1% 15%;
-  /*padding-top: 40px;*/
-  height: 70%;
-}
-
-.middle-container{
-  margin: 4% auto 2%;
-}
-
 .bottom-container{
   height: 100px;
   padding: 0 0 2% 0;
-
+}
+.container-fluid{
+  padding: 1% 15% 2%;
+}
+.contact-container{
+  height: 100px;
+  margin: 2% 10% 0;
 }
 .contact-link{
-  margin: 10px 20px;
+  margin: 0px 20px;
 }
 .copyright{
   color: #161616;
@@ -80,16 +34,16 @@ p{
   margin: 10px auto;
   color: gray;
   font-size: 75%;
-  /*margin-top: 10px;*/
-  padding: 0;
 }
-.contact-image{
-  height: 2.5rem;
-  width: 2.5rem;
+.middle-container{
+  margin: 4% auto 2%;
 }
-.contact-container{
-  height: 100px;
-  margin: 2% 10% 0;
+.nameHeader{
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
 }
 /* Navighation Bar */
 .navbar{
@@ -107,6 +61,128 @@ p{
   font-weight: 500;
   font-size: 1.1rem;
 }
+p{
+  color: black;
+  line-height: 1.5;
+}
+.profilePic{
+  height: 15rem;
+  width: 15rem;
+  border-radius:50%;
+  border-style: solid;
+  position: relative;
+}
+
+.short-bio{
+  margin-top: 2%;
+  margin-bottom: 10%;
+  font-size: 1.5em;
+  font-weight: 100%;
+}
+#title{
+  background-color: white;
+  color: black;
+}
+.top-container{
+  position: relative;
+  padding: 1% 15%;
+  /*padding-top: 40px;*/
+  height: 70%;
+}
+
+
+@media (max-width: 500px) { /*phone */
+  .bottom-container{
+    padding: 0 0 2% 0;
+  }
+  .copyright{
+    color: #161616;
+    font-size: 0.85 rem;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0;
+  }
+  .createdOn{
+    width: 80%;
+    margin: 10px auto;
+    color: gray;
+    font-size: 75%;
+  }
+  .container-fluid{
+    padding: 2% 3% 2%;
+  }
+  .contact-container{
+    margin: 10% 5% 0;
+  }
+  .contact-link{
+    margin: 10px 10px;
+  }
+  .nameHeader{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+  }
+  .occupation{
+    font-size: 1em;
+  }
+  .profilePic{
+    height: 150px;
+    background-color: yellow;
+    width: 150px;
+    border-radius:50%;
+    border-style: solid;
+    position: relative;
+  }
+  .short-bio{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 1.3em;
+    font-weight: 100%;
+  }
+  .top-container{
+    padding: 25% 5%;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 500px){ /*tablets */
+  .container-fluid{
+    padding: 1% 12% 2%;
+  }
+  .createdOn{
+    width: 70%;
+    margin: 10px auto;
+    color: gray;
+    font-size: 75%;
+  }
+  .profilePic{
+    margin: auto;
+    height: 17rem;
+    width: 17rem;
+    border-radius:75%;
+    border-style: solid;
+    position: relative;
+  }
+  .middle-container{
+    margin: 1% auto 5%;
+  }
+  .top-container{
+    position: relative;
+    margin: 20% 5% 15%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Hover color for font awesome*/
 .fa-envelope-square:hover{
   color: black;

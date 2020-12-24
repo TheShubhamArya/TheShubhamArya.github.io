@@ -5,7 +5,7 @@ body{
   margin-top: 0;
   text-align: center;
   font-family: "Montserrat-Black";
-  background-color: white;
+  background-color:white;
 }
 .bottom-container{
   height: 100px;
@@ -53,7 +53,6 @@ body{
 }
 .nav-item{
   padding: 0 18px;
-  /*color: black;*/
 }
 .nav-link{
   font-family: "Ubuntu";
@@ -89,7 +88,6 @@ p{
   height: 70%;
 }
 
-
 @media (max-width: 500px) { /*phone */
   .bottom-container{
     padding: 0 0 2% 0;
@@ -115,6 +113,9 @@ p{
   }
   .contact-link{
     margin: 10px 10px;
+  }
+  .middle-container{
+    margin: 3% 10px 2%;
   }
   .nameHeader{
     font-size: 2em;
@@ -174,10 +175,6 @@ p{
   }
 }
 
-
-
-
-
 /* Hover color for font awesome*/
 .fa-envelope-square:hover{
   color: black;
@@ -197,3 +194,19 @@ p{
 .fa-app-store-ios:hover{
   color: 	#05e3f5;
 }
+@media (prefers-color-scheme: dark){
+  /*body{
+    background-color: black;
+  }
+  #title{
+    background-color: black;
+    color: white;
+  }
+  .nav-item{
+    color: white;
+  }
+  .nav-link{
+    color: white;
+  }*/
+}
+

@@ -305,7 +305,7 @@ body{
 
 @media (min-width: 1000px) and (max-width:1050px){
   .mockup-image{
-    margin: 2.5% auto 2.5%
+    margin: 2.5% auto 2.5%;
     height: 500px;
   }
   .navbar{

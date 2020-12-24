@@ -156,7 +156,7 @@ h1{
     padding: 1% 5% 2% 5%;
   }
   .hand-cricket-text-container{
-    margin: 15% 5%;
+    margin: 10% 5%;
   }
   h2{
     text-align: center;
@@ -178,7 +178,7 @@ h1{
   }
   .mockup-image{
     margin: 2.5% auto 2.5%;
-    height: 600px;
+    height: 500px;
   }
   .navbar{
     padding: 0 0 1.5rem;
@@ -197,7 +197,7 @@ h1{
     margin-bottom: 20px;
   }
   .phone-image{
-    height: 300px;
+    height: 400px; /* Twas 300*/
   }
   .slogan{
     font-family: "Montserrat-Black";

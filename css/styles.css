@@ -1,5 +1,4 @@
 a{
-  color:  red;
   text-decoration: none;
 }
 body{
@@ -109,7 +108,7 @@ p{
     font-size: 75%;
   }
   .container-fluid{
-    padding: 2% 3% 2%;
+    padding: 1% 12% 2%;
   }
   .contact-container{
     margin: 10% 5% 0;
@@ -132,7 +131,6 @@ p{
   }
   .profilePic{
     height: 150px;
-    background-color: yellow;
     width: 150px;
     border-radius:50%;
     border-style: solid;

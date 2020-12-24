@@ -110,7 +110,7 @@ hr{
 
 @media (max-width: 500px) { /*For iPhone size*/
   .container-fluid{
-    padding: 1% 12% 2%;
+    padding: 1% 4% 2%;
   }
   .contact-container{
     margin: 10% 5% 0;

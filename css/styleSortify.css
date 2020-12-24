@@ -140,7 +140,7 @@ body{
     color: 	#202020;
   }
   .container-fluid{
-    padding:1% 12% 2%;
+    padding:1% 4% 2%;
   }
   .carousel-inner{
     margin-left: auto;
@@ -148,7 +148,7 @@ body{
   }
   .display-title-sortify{
     font-family: "Montserrat-Black";
-    font-size: 1.7rem;
+    font-size: 2.05rem;
     line-height: 1.2;
     font-weight: 600;
   }
@@ -219,12 +219,12 @@ body{
   }
   .slogan{
     font-family: "Montserrat-Black";
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 550;
   }
   .subtitle{
     font-family: "Montserrat-Black";
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.2;
     margin-top: 5%;
   }

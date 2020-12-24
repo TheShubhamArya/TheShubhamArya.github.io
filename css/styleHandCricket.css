@@ -115,7 +115,7 @@ h1{
 
 @media (max-width: 500px) { /* Mobile phone display */
   .container-fluid{
-    padding: 1% 12% 2%;
+    padding: 1% 4% 2%;
   }
   .carousel-inner{
     margin-left: auto;
@@ -123,7 +123,7 @@ h1{
   }
   .display-title-hc{
     font-family: "Montserrat-Black";
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     line-height: 1.2;
     font-weight: 600;
   }
@@ -198,12 +198,12 @@ h1{
   }
   .slogan{
     font-family: "Montserrat-Black";
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 550;
   }
   .subtitle{
     font-family: "Montserrat-Black";
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.2;
     margin-top: 5%;
   }

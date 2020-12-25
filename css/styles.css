@@ -15,11 +15,12 @@ body{
   padding: 1% 15% 2%;
 }
 .contact-container{
-  height: 100px;
+  /*height: 100px;*/
   margin: 2% 10% 0;
 }
 .contact-link{
   margin: 0px 20px;
+  color: black;
 }
 .copyright{
   color: #161616;
@@ -73,7 +74,7 @@ p{
 
 .short-bio{
   margin-top: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   font-size: 1.5em;
   font-weight: 100%;
 }
@@ -83,9 +84,8 @@ p{
 }
 .top-container{
   position: relative;
-  padding: 1% 15%;
+  padding: 4% 5%;
   /*padding-top: 40px;*/
-  height: 70%;
 }
 
 @media (max-width: 500px) { /*phone */
@@ -101,7 +101,7 @@ p{
   }
   .createdOn{
     width: 80%;
-    margin: 10px auto;
+    margin: 10% auto;
     color: gray;
     font-size: 75%;
   }
@@ -109,10 +109,13 @@ p{
     padding: 1% 4% 2%;
   }
   .contact-container{
-    margin: 10% 5% 0;
+    margin: 8% 5% 5%;
   }
   .contact-link{
     margin: 10px 10px;
+  }
+  .hover-contact{
+    font-size: 1.5em;;
   }
   .middle-container{
     margin: 3% 10px 2%;
@@ -128,7 +131,10 @@ p{
     padding: 0 0 3rem;
   }
   .occupation{
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
   .profilePic{
     height: 150px;
@@ -138,17 +144,17 @@ p{
     position: relative;
   }
   .short-bio{
-    margin-top: 2%;
-    margin-bottom: 10%;
-    font-size: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 0.9em;
     font-weight: 100%;
   }
   .top-container{
-    padding: 10% 5%;
+    padding: 8% 5% 2%;
   }
 }
 
-@media (max-width: 1050px) and (min-width: 500px){ /*tablets */
+@media (max-width: 1000px) and (min-width: 500px){ /*tablets */
   .container-fluid{
     padding: 1% 12% 2%;
   }
@@ -158,10 +164,13 @@ p{
     color: gray;
     font-size: 75%;
   }
+  .nameHeader{
+    font-size: 3rem;;
+  }
   .profilePic{
     margin: auto;
-    height: 17rem;
-    width: 17rem;
+    height: 15rem;
+    width: 15rem;
     border-radius:75%;
     border-style: solid;
     position: relative;
@@ -171,28 +180,13 @@ p{
   }
   .top-container{
     position: relative;
-    margin: 20% 5% 15%;
+    margin: 4.5% 2.5% 12.5%;
   }
 }
 
 /* Hover color for font awesome*/
-.fa-envelope-square:hover{
-  color: black;
-}
-.fa-linkedin:hover{
-  color: #0b5e86;
-}
-.fa-instagram:hover{
-  color: #833AB4;
-}
-.fa-facebook:hover{
-  color: #898F9C;
-}
-.fa-github:hover{
-  color: orange;
-}
-.fa-app-store-ios:hover{
-  color: 	#05e3f5;
+.hover-contact:hover{
+  color:#fedcba;
 }
 @media (prefers-color-scheme: dark){
   /*body{
@@ -202,11 +196,24 @@ p{
     background-color: black;
     color: white;
   }
-  .nav-item{
-    color: white;
-  }
   .nav-link{
     color: white;
-  }*/
+  }
+  .navbar-custom .navbar-toggler {
+  	background-color:white;
+  }
+  .navbar-toggler-icon{
+    background-color:black;
+  }
+  .git-dark{
+    color: white;
+  }
+  .hover-contact:hover{
+    color: yellow;
+  }
+  .top-container{
+    color: aliceblue;
+  }
+*/
 }
 

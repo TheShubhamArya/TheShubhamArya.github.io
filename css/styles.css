@@ -15,7 +15,6 @@ body{
   padding: 1% 15% 2%;
 }
 .contact-container{
-  /*height: 100px;*/
   margin: 2% 10% 0;
 }
 .contact-link{
@@ -90,7 +89,7 @@ p{
 
 @media (max-width: 500px) { /*phone */
   .bottom-container{
-    padding: 0 0 2% 0;
+    padding: 5% 0 2% 0;
   }
   .copyright{
     color: #161616;
@@ -109,7 +108,7 @@ p{
     padding: 1% 4% 2%;
   }
   .contact-container{
-    margin: 8% 5% 5%;
+    margin: 12% 5% 7%;
   }
   .contact-link{
     margin: 10px 10px;
@@ -154,9 +153,12 @@ p{
   }
 }
 
-@media (max-width: 1000px) and (min-width: 500px){ /*tablets */
+@media (max-width: 1050px) and (min-width: 500px){ /*tablets */
   .container-fluid{
     padding: 1% 12% 2%;
+  }
+  .contact-container{
+    margin: 12% 5% 7%;
   }
   .createdOn{
     width: 70%;
@@ -180,7 +182,7 @@ p{
   }
   .top-container{
     position: relative;
-    margin: 4.5% 2.5% 12.5%;
+    margin: 12.5% 2.5% 12.5%;
   }
 }
 

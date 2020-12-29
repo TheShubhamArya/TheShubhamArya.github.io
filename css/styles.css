@@ -188,7 +188,7 @@ p{
 
 /* Hover color for font awesome*/
 .hover-contact:hover{
-  color:#fedcba;
+  color: black;
 }
 @media (prefers-color-scheme: dark){
   /*body{

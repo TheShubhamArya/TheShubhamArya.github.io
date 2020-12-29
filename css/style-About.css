@@ -1,6 +1,6 @@
 .btn-dark{
   background-color: #43A6C6;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .compImage-left{
   height: 60px;
@@ -10,16 +10,6 @@
   padding-right: 0;
   margin-right: 2%;
 }
-/*.container-fluid{
-  padding: 1% 25% 2%;
-}
-.contact-container{
-  height: 100px;
-  margin: 10% 5% 0;
-}
-.contact-link{
-  margin: 10px 10px;
-}*/
 .contact-container{
   height: 100px;
   margin: 2% 10% 0;
@@ -214,9 +204,11 @@ hr{
 }
 
 
+.hover-contact:hover{
+  color: black;
+}
 
-
-/* Hover color for font awesome*/
+/* Hover color for font awesome
 .fa-envelope-square:hover{
   color: black;
 }
@@ -235,3 +227,4 @@ hr{
 .fa-app-store-ios:hover{
   color: 	#05e3f5;
 }
+*/

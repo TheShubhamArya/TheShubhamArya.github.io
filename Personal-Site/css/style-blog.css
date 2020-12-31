@@ -1,0 +1,84 @@
+.blog-links{
+    text-decoration: none;
+    color: black;
+}
+.blogs{
+    margin-top: 2%;
+}
+.blog-card{
+    margin: 2% 0 2%;
+}
+.blog-links:hover{
+    color: grey;
+}
+.content {
+    flex: 1;
+    display: flex;
+    margin-bottom: 3.2rem;
+}
+.container {
+    margin: 0 auto;
+    max-width: 90rem;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#content-body{
+    /*margin: 0 25% 2%;
+    height: 100%;*/
+    margin: 0 auto;
+    max-width: 90rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/*.container {
+    display: inline;
+    justify-content: space-between;
+}*/
+#footer{
+    text-align: center;
+}
+/* Navighation Bar */
+#navigation{
+    margin: 1% 15% 0;
+}
+.navbar{
+    padding: 0 0 2.5rem;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  section {
+    display: block;
+}
+.title{
+    margin-bottom: 3%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+@media (max-width: 500px) { 
+    #navigation{
+        margin: 1% 4% 0;
+    }
+}
+@media (min-width: 500px) and (max-width: 1050px) {
+    #blog-body{
+        margin: 2% 10% 0;
+    }
+    #navigation{
+        margin: 1% 12% 0;
+    }
+}

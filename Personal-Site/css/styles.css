@@ -1,157 +1,29 @@
-body{
-  margin: 0;
-  text-align: center;
-  background-color: white;
-  color: white;
-}
 a{
-  color:  red;
-  margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
-  /*color: #000080;*/
+body{
+  margin-top: 0;
+  text-align: center;
+  font-family: "Montserrat-Black";
+  background-color:white;
 }
-p{
-  color: black;
-  line-height: 1.5;
-}
-h1{
-  font-size: 5rem; /*100% = 16px = 1em, to make it 80px, make it 500%*/
-  margin-top: 300px;
-  /*width: 20%;*/
-  /*margin: 0 auto 0 auto;*/
-  font-family: serif;
-  color: black;
-}
-h2{
-  font-size: 3rem;
-  color: #66BFBF;
-  font-weight: normal;
-}
-h3{
-  font-size: 50%;
-  font-weight: lighter;
-  color: #202020;
-}
-
-.gifs{
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin: 20px;
-  margin-top: 50px;
-  margin-bottom: 70px;
-}
-
-hr{
-  border: 60px dotted #FFFF99;
-  border-bottom: none;
-  width: 12.5%;
-}
-
-.topCloud{
-  position: absolute;
-  right: 0;
-  top: 125px;
-}
-
-.profilePic{
-  height: 200px;
-  width: 200px;
-  border-radius:50%;
-  border-style: solid;
-  position: relative;
-  top: 60px;
-}
-
-.nameHeader{
-  font-size: 3.5em;
-  margin-top: 60px;
-  margin-bottom: 60;
-  position: relative;
-}
-
-.short-bio{
-  font-size: 1.5em;
-  font-weight: 100%;
-}
-
-.bottomCloud{
-  position: absolute;
-  left: 0;
-  top: 300px;
-}
-
-.intro{
-  width: 40%;
-  margin: auto;
-  padding-bottom: 40px;
-}
-
-.compImage{
-  height: 25%;
-  width: 25%;
-  border-radius: 50%;
-  float: left;
-  padding-right: 3%;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
-.top-container{
-  position: relative;
-  padding-top: 40px;
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  /*
-  height: 200px;
-  width: 200px;
-
-  display: inline-block;
-  position: absolute;
-  left: 400px;
-  top: 400px;
-  */
-}
-
-.middle-container{
-  /*
-  background-color: red;
-  height: 200px;
-  width: 200px;
-
-  display: inline-block;
-  position: absolute;
-  left: 200px;
-  top: 200px;
-  */
-}
-
 .bottom-container{
   height: 100px;
-  padding: 20px 0 5px 0;
-  /*background-color: black;
-  color: white;
-
-  height: 200px;
-  width: 200px;
-
-  display: inline-block;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  */
+  padding: 0 0 2% 0;
 }
-
+.container-fluid{
+  padding: 1% 15% 2%;
+}
+.contact-container{
+  margin: 2% 10% 0;
+}
+.contact-link{
+  margin: 0px 20px;
+  color: black;
+}
 .copyright{
   color: #161616;
-  font-size: 0.75 rem;
+  font-size: 0.85 rem;
   margin-bottom: 0;
   margin-top: 20px;
   padding: 0;
@@ -160,56 +32,190 @@ hr{
   width: 30%;
   margin: 10px auto;
   color: gray;
-  font-size: 50%;
-  /*margin-top: 10px;*/
-  padding: 0;
+  font-size: 75%;
+}
+.middle-container{
+  margin: 4% auto 2%;
+}
+.nameHeader{
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+/* Navighation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+p{
+  color: black;
+  line-height: 1.5;
+}
+.profilePic{
+  height: 15rem;
+  width: 15rem;
+  border-radius:50%;
+  border-style: solid;
+  position: relative;
 }
 
-.contact-image{
-  height: 2.5%;
-  width: 2.5%;
+.short-bio{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 1.5em;
+  font-weight: 100%;
 }
-.btn {
-   background: #11CDD4;
-   background-image: -webkit-linear-gradient(top, #11CDD4, #11999D);
-   background-image: -moz-linear-gradient(top, #11CDD4, #11999D);
-   background-image: -ms-linear-gradient(top, #11CDD4, #11999D);
-   background-image: -o-linear-gradient(top, #11CDD4, #11999D);
-   background-image: -webkit-gradient(to bottom, #11CDD4, #11999D);
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   height: 45px;
-   line-height: 50px;
-   color: #FFFFFF;
-   font-family: Times New Roman;
-   width: 175px;
-   font-size: 18px;
-   font-weight: 100;
-   padding: 0;
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-bottom: 30px;
+#title{
+  background-color: white;
+  color: black;
+}
+.top-container{
+  position: relative;
+  padding: 4% 5%;
+  /*padding-top: 40px;*/
 }
 
-.btn:hover {
-   border: solid #44C3FD 1px;
-   background: #46B7F0;
-   background-image: -webkit-linear-gradient(top, #46B7F0, #36A8E5);
-   background-image: -moz-linear-gradient(top, #46B7F0, #36A8E5);
-   background-image: -ms-linear-gradient(top, #46B7F0, #36A8E5);
-   background-image: -o-linear-gradient(top, #46B7F0, #36A8E5);
-   background-image: -webkit-gradient(to bottom, #46B7F0, #36A8E5);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-   text-decoration: none;
+@media (max-width: 500px) { /*phone */
+  .bottom-container{
+    padding: 5% 0 2% 0;
+  }
+  .copyright{
+    color: #161616;
+    font-size: 0.85 rem;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0;
+  }
+  .createdOn{
+    width: 80%;
+    margin: 10% auto;
+    color: gray;
+    font-size: 75%;
+  }
+  .container-fluid{
+    padding: 1% 4% 2%;
+  }
+  .contact-container{
+    margin: 12% 5% 7%;
+  }
+  .contact-link{
+    margin: 10px 10px;
+  }
+  .hover-contact{
+    font-size: 1.5em;;
+  }
+  .middle-container{
+    margin: 3% 10px 2%;
+  }
+  .nameHeader{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+  }
+  .navbar{
+    padding: 0 0 3rem;
+  }
+  .occupation{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .profilePic{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    border-style: solid;
+    position: relative;
+  }
+  .short-bio{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 0.9em;
+    font-weight: 100%;
+  }
+  .top-container{
+    padding: 8% 5% 2%;
+  }
 }
-/*Nav bar */
+
+@media (max-width: 1050px) and (min-width: 500px){ /*tablets */
+  .container-fluid{
+    padding: 1% 12% 2%;
+  }
+  .contact-container{
+    margin: 12% 5% 7%;
+  }
+  .createdOn{
+    width: 70%;
+    margin: 10px auto;
+    color: gray;
+    font-size: 75%;
+  }
+  .nameHeader{
+    font-size: 3rem;;
+  }
+  .profilePic{
+    margin: auto;
+    height: 15rem;
+    width: 15rem;
+    border-radius:75%;
+    border-style: solid;
+    position: relative;
+  }
+  .middle-container{
+    margin: 1% auto 5%;
+  }
+  .top-container{
+    position: relative;
+    margin: 12.5% 2.5% 12.5%;
+  }
+}
+
+/* Hover color for font awesome*/
+.hover-contact:hover{
+  color: black;
+}
+@media (prefers-color-scheme: dark){
+  /*body{
+    background-color: black;
+  }
+  #title{
+    background-color: black;
+    color: white;
+  }
+  .nav-link{
+    color: white;
+  }
+  .navbar-custom .navbar-toggler {
+  	background-color:white;
+  }
+  .navbar-toggler-icon{
+    background-color:black;
+  }
+  .git-dark{
+    color: white;
+  }
+  .hover-contact:hover{
+    color: yellow;
+  }
+  .top-container{
+    color: aliceblue;
+  }
+*/
+}
+

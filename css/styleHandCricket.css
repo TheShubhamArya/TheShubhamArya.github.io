@@ -48,6 +48,11 @@ body{
   margin: 0 7%;
   color: #8f8f8f;
 }
+.footer-policies{
+  color: red;
+  text-align: center;
+  margin: 0 40%;
+}
 h1{
   font-family: "Montserrat-Black";
   font-size: 3.5rem;

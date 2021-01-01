@@ -11,6 +11,11 @@
 .blog-links:hover{
     color: grey;
 }
+.btn{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #fafafa;
+}
 .content {
     flex: 1;
     display: flex;
@@ -45,23 +50,26 @@
 }
 .navbar{
     padding: 0 0 2.5rem;
-  }
-  .navbar-brand{
+}
+.navbar-brand{
     font-size: 1.5rem;
-  }
-  .nav-item{
+}
+.nav-item{
     padding: 0 18px;
-  }
-  .nav-link{
+}
+.nav-link{
     font-family: "Ubuntu";
     font-weight: 500;
     font-size: 1.1rem;
-  }
-  section {
+}
+section {
     display: block;
 }
 .title{
     margin-bottom: 3%;
+    text-align: center;
+    font-size: 3em;;
+    font-weight: bold;
 }
 .wrapper {
     display: flex;
@@ -73,6 +81,14 @@
     #navigation{
         margin: 1% 4% 0;
     }
+    .title{
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 2em;;
+    }
+    .navbar{
+        padding: 0 0 1rem;
+    }
 }
 @media (min-width: 500px) and (max-width: 1050px) {
     #blog-body{
@@ -80,5 +96,8 @@
     }
     #navigation{
         margin: 1% 12% 0;
+    }
+    .navbar{
+        padding: 0 0 1.5rem;
     }
 }

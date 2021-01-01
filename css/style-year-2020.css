@@ -3,7 +3,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+h1{
+    font-size: 5em;
+    font-weight: bold;
+}
 img {
     padding: 0;
     display: block;
@@ -24,9 +27,8 @@ img {
     color: gray;
     margin-bottom: 5%;
 }
-h1{
-    font-size: 5em;
-    font-weight: bold;
+#navigation{
+    margin: 1% 15% 0;
 }
 .header{
     text-align: center;
@@ -43,10 +45,6 @@ iframe{
     width: 500;
     height: 500;
 }
-/* Navighation Bar */
-#navigation{
-    margin: 1% 15% 0;
-}
 .navbar{
     padding: 0 0 2.5rem;
 }
@@ -60,6 +58,11 @@ iframe{
     font-family: "Ubuntu";
     font-weight: 500;
     font-size: 1.1rem;
+}
+.screenshots{
+    padding: 2% 0 2%;
+    height: 350px;
+    text-align: center;
 }
 .sub-heading{
     text-align: center;

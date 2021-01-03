@@ -1,3 +1,6 @@
+body{
+  font-family: proxima-nova,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+}
 .btn-dark{
   background-color: #43A6C6;
   margin-bottom: 5%;
@@ -22,7 +25,7 @@
 .display-quote{
   color: white;
   font-size: 4.5rem;
-  font-family: "Montserrat-Bold";
+  /*font-family: "Montserrat-Bold";*/
   font-weight: 750;
   text-align: center;
 }
@@ -79,7 +82,7 @@ hr{
   padding-top: 10px;
   color: #F5FFF5;
   font-size: 2.5rem;
-  font-family: "Montserrat-Bold";
+  /*font-family: "Montserrat-Bold";*/
   font-weight: 500;
   text-align: center;
 }
@@ -115,7 +118,7 @@ hr{
   .display-quote{
     color: white;
     font-size: 2rem;
-    font-family: "Montserrat-Bold";
+    /*font-family: "Montserrat-Bold";*/
     font-weight: 650;
     text-align: center;
   }
@@ -139,7 +142,7 @@ hr{
     padding-top: 10px;
     color: #F5FFF5;
     font-size: 1.45rem;
-    font-family: "Montserrat-Bold";
+    /*font-family: "Montserrat-Bold";*/
     font-weight: 500;
     text-align: center;
   }
@@ -158,7 +161,7 @@ hr{
   .display-quote{
     color: white;
     font-size: 3.5rem;
-    font-family: "Montserrat-Bold";
+    /*font-family: "Montserrat-Bold";*/
     font-weight: 650;
     text-align: left;
   }
@@ -177,7 +180,7 @@ hr{
     padding-top: 10px;
     color: #F5FFF5;
     font-size: 1.5rem;
-    font-family: "Montserrat-Bold";
+    /*font-family: "Montserrat-Bold";*/
     font-weight: 500;
     text-align: left;
   }
@@ -207,24 +210,3 @@ hr{
 .hover-contact:hover{
   color: black;
 }
-
-/* Hover color for font awesome
-.fa-envelope-square:hover{
-  color: black;
-}
-.fa-linkedin:hover{
-  color: #0b5e86;
-}
-.fa-instagram:hover{
-  color: #833AB4;
-}
-.fa-facebook:hover{
-  color: #898F9C;
-}
-.fa-github:hover{
-  color: orange;
-}
-.fa-app-store-ios:hover{
-  color: 	#05e3f5;
-}
-*/

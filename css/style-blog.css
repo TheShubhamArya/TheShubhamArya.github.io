@@ -1,3 +1,6 @@
+body{
+    font-family: proxima-nova,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+}
 .blog-links{
     text-decoration: none;
     color: black;
@@ -6,14 +9,14 @@
     margin-top: 2%;
 }
 .blog-card{
-    margin: 2% 0 2%;
+    margin: 3% 0 3%;
 }
 .blog-links:hover{
     color: grey;
 }
 .btn{
     width: 100%;
-    margin-top: 8%;
+    margin-top: 5%;
     background-color: #fafafa;
 }
 .content {
@@ -29,18 +32,13 @@
     padding-right: 15%;
 }
 #content-body{
-    /*margin: 0 25% 2%;
-    height: 100%;*/
+
     margin: 0 auto;
     max-width: 90rem;
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
 }
-/*.container {
-    display: inline;
-    justify-content: space-between;
-}*/
 #footer{
     text-align: center;
 }
@@ -66,7 +64,7 @@ section {
     display: block;
 }
 .title{
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     text-align: center;
     font-size: 3em;;
     font-weight: bold;

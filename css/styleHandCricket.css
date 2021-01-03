@@ -2,7 +2,8 @@
   margin: 5% 10% 5%;
 }
 body{
-  font-family: "Montserrat";
+  /*font-family: "Montserrat";*/
+  font-family: proxima-nova,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
   position: relative;
 }
 .container-fluid{
@@ -54,7 +55,7 @@ body{
   margin: 0 40%;
 }
 h1{
-  font-family: "Montserrat-Black";
+  /*font-family: "Montserrat-Black";*/
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
@@ -100,12 +101,12 @@ h1{
   text-align: center;
 }
 .slogan{
-  font-family: "Montserrat-Black";
+  /*font-family: "Montserrat-Black";*/
   font-size: 2.5em;
   font-weight: 550;
 }
 .subtitle{
-  font-family: "Montserrat-Black";
+  /*font-family: "Montserrat-Black";*/
   font-size: 1.6rem;
   line-height: 1.5;
   margin-top: 5%;
@@ -133,7 +134,6 @@ h1{
     margin-bottom: 4%;
   }
   .display-title-hc{
-    font-family: "Montserrat-Black";
     font-size: 2.5rem;
     line-height: 1.2;
     font-weight: 600;
@@ -149,7 +149,6 @@ h1{
   .feature-title{
     margin-top: 5%;
     font-size: 1.25rem;
-    font-family: "Montserrat-Black";
     font-weight: bold;
   }
   .feature-body{
@@ -208,12 +207,10 @@ h1{
     height: 400px; /* Twas 300*/
   }
   .slogan{
-    font-family: "Montserrat-Black";
     font-size: 1.75em;
     font-weight: 550;
   }
   .subtitle{
-    font-family: "Montserrat-Black";
     font-size: 1.3rem;
     line-height: 1.2;
     margin-top: 5%;
@@ -237,14 +234,12 @@ h1{
     margin-bottom: 4%;
   }
   .description-heading{
-    font-family: "Montserrat-Black";
     font-size: 2rem;
     line-height: 1.25;
     text-align: center;
     font-weight: 600;
   }
   .display-title-hc{
-    font-family: "Montserrat-Black";
     font-size: 3rem;
     line-height: 1.2;
     font-weight: 600;
@@ -278,12 +273,10 @@ h1{
     height: 400px;
   }
   .slogan{
-    font-family: "Montserrat-Black";
     font-size: 2em;
     font-weight: 550;
   }
   .subtitle{
-    font-family: "Montserrat-Black";
     font-size: 1.5rem;
     line-height: 1.2;
     margin-top: 2%;

@@ -1,110 +1,703 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Shubham Arya</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
     <link rel="icon" href="images/Shubham-images/Shubham2.png">
-    <!--Font awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <!--CSS Style sheets-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
     <main class="wrapper">
 
-
-    <section id="title">
-      <div class="container-fluid">
-        <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand nav-link" href="/">SHUBHAM ARYA</a>
-          <button class="navbar-toggler" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="About/">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Wallet/">Wallet</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="HandCricket/">Hand Cricket</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Sortify/">Sortify</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/blog/">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <!-- Title -->
-    <div class="content">
-
-    <section class="container centered">
-
-    <div class="top-container">
-      <img class="profilePic"src="/images/Shubham-images/1.jpg" draggable="false" alt="Profile Picture">
-      <h1 class = "nameHeader">Shubham Arya</h1>
-      <h2 class="occupation">iOS engineer, CS Student, and Cricketer.</h2>
-      <!-- <h3 class="short-bio">I make creative and innovative applications that people all around the world can use.</h3> -->
+    
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
 
-  </section>
-  </div>
-  <div class="contact-container">
-    <a class="contact-link" href="https://www.linkedin.com/in/shubham-arya-11099/" target="_blank">
-      <span style="color: #0e76a8;">
-        <i class="hover-contact fab fa-linkedin fa-2x"></i>
-      </span>
-    </a>
-    <a class="contact-link" href="https://apps.apple.com/us/developer/shubham-arya/id1522679200" target="_blank">
-      <span style="color: #5fc9f8;">
-        <i class="hover-contact fab fa-app-store-ios fa-2x"></i>
-      </span>
-    </a>
-    <a class="contact-link" href="https://www.instagram.com/_shubhamarya_/" target="_blank">
-      <span style="color: #C13584">
-        <i class="hover-contact fab fa-instagram fa-2x"></i>
-      </span>
-    </a>
-    <a class="contact-link" href="https://www.facebook.com/shubham.arya.754570" target="_blank">
-      <span style="color: #4267B2;">
-        <i class="hover-contact fab fa-facebook fa-2x"></i>
-      </span>
-    </a>
-    <a class="contact-link" href="https://github.com/TheShubhamArya" target="_blank">
-      <span style="color: #333;">
-        <i class="git-dark hover-contact fab fa-github fa-2x"></i>
-      </span>
-    </a>
-    <a class="contact-link" href="mailto:shubhamarya11099@gmail.com">
-      <span style="color: orange;">
-        <i class="hover-contact fas fa-envelope-square fa-2x"></i>
-      </span>
-    </a>
-  </div>
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
 
-  <div class="bottom-container">
-    <p class="copyright">© 2020 - 2021 Shubham Arya </p>
-    <p class="createdOn">Created on december 18, 2020. Last updated on June 30, 2021.</p>
-  </div>
-  </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-  </body>
-</html>
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <!-- <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li> -->
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="" href="/Apps/" title="services">Apps</a></li>
+                <li><a class="" href="/blog/index.html" title="works">Blog</a></li>
+                <!-- <li><a class="smoothscroll" href="#contact" title="contact us">Contacts</a></li>	 -->
+            </ul>
+
+            <ul class="header-social">
+                <li>
+                    <a href="https://github.com/TheShubhamArya" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/shubham-arya-11099/" target="_blank">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://apps.apple.com/us/developer/shubham-arya/id1522679200" target="_blank">
+                        <i class="fab fa-app-store-ios" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-link" href="https://www.instagram.com/_shubhamarya_/" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello, I'm Shubham Arya</h3>
+                <h1>
+                    iOS Engineer,<br>
+                    Web Developer,<br>
+                    CS Student.
+                </h1>
+            </div>
+
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                        As a computer scientist, I aspire to build applications that millions of people all around the world
+                        can use to make the world a more sustainable, habitable and happier place to live.
+                    </p>
+
+                    <p>
+                        In just 22 years on this planet, I have had the pleasure to learn some interesting things, meet 
+                        extraordinary people, and go to amazing places around the world. This website captures a fraction of 
+                        my  work and experiences which should help you to get to know me better. 
+                    </p>
+
+                    <p>
+                        I am no prodigy but I am someone who is inspired easily. I look at a thing that fascinates me and I get motivated to
+                        do something better than that. I have this innate quality to learn something rapidly and then 
+                        apply that in a practical use. For instance, I was motivated to develop my own apps that people
+                        could use globally. In just 2 months, I was able to accomplish this feat when I pushed my first app 
+                        on the App Store.
+                    </p>
+
+                    <p>
+                        While I have had my fair share of success, I don't mind occassional failures. I believe that the 
+                        learning I get through my failures provides me a far greater understanding of the situation which
+                        makes me a better problem solver for the future. Moreover, I have a greater drive to succeed when I 
+                        encounter difficulties. For example, after I had to decline an intenrship from Apple due to 
+                        coronavirus in summer of 2021, I was impelled to create my third app for the App Store through which
+                        I gained some advanced skills that I may not have otherwise.
+                    </p>
+
+                    <p>
+                        This website is the story of my life. Please reach out to me if you like my work and have
+                        ideas to share!
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row about-me__buttons">
+                <!-- <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#0" class="btn btn--stroke full-width">Hire Me</a>
+                </div> -->
+                 <div class="column large-full tab-full" data-aos="fade-up">
+                    <a href="/Resume.pdf" class="btn btn--primary full-width">Download Resume</a>
+                </div> 
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">May 2020 - Present</p>
+                                <h3 class="item-title">iOS Engineer</h3>
+                                <h5>Independent developer</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>
+                                    I have published 3 applications on the App Store that have received over <b>12,000 downloads</b>
+                                    from all around the world. I have gotten really good with programmatic interface with UIKit to 
+                                    make really complicated and useable interface for my apps. I strive to update my current apps 
+                                    and build more apps in the future to keep my users satisfied.
+                                </p>
+                                <p>
+                                    Through <b>Hand Cricket</b> I understood the fundamentals to develop apps. I got to practice
+                                    these skills in <b>Sortify: Pocket Planner</b>, and learn a wider variety of topics. I mastered
+                                    completely programmatic UI with <b>Wallet: Budget Manager</b> as well as apply advanced concepts.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">March 2020 - August 2020</p>
+                                <h3 class="item-title">UTA Libraries</h3>
+                                <h5>Virtual Chat Assistant</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <ul>
+                                    <li>Over 500 hours of computer assistance, solving thousands of problems online.</li>
+                                    <li>
+                                        Assisted patrons to find research topics, articles and directing them to correct resources
+                                        in the library database.
+                                    </li>
+                                    <li>
+                                        Worked on library related research and questions by writing detail reports on frequently 
+                                        asked questions for the library customers.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">January 2019 - March 2020</p>
+                                <h3 class="item-title">UTA Libraries</h3>
+                                <h5>Customer Experience Assistant</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <ul>
+                                    <li>Received Exposure to <b>public speaking</b> and effective communication with customers.</li>
+                                    <li>Resolved library related issues with hardware and software to maintain smooth functioning.</li>
+                                    <li>Managed library database for patron security and satisfation.</li>
+                                </ul>
+                                <p>
+                                    This position was my first job. The learning I received through this position is invaluable to me.
+                                    Soft skills like <b>time management, team collaboration, and problem solving</b> was something I had 
+                                    to deal with on a day to day basis. This experience gave me a new perspective about how customers
+                                    think.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">August 2018 - May 2022</p>
+                                <h3 class="item-title">University of Texas - Arlington</h3>
+                                <h5>Bachelor Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <ul>
+                                    <li>Majoring in computer science</li>
+                                    <li><b>GPA: 3.788 / 4.0</b> in Senior year</li>
+                                    <li>Maverick academic scholarship recipient</li>
+                                </ul>
+                                <p>
+                                    The education I received from UTA has set me for my professional career. 
+                                    The assignements, projects, and examinations for courses tested my knowledge on the subject
+                                    and I did exceptionally well with grades. Apart from being on the <b>Dean's List</b> regularly,
+                                    I have gained the international exposure and independence that I would not get back in India.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">April 2014 - May 2018</p>
+                                <h3 class="item-title">The PSBB Millennium School</h3>
+                                <h5>High School</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <ul>
+                                    <li>10th grade CGPA: 10.0 / 10.0</li>
+                                    <li>12th grade final percentage: 92.8%</li>
+                                    <li>Courses taken: Math, Computer Science, Chemistry, Physics, English</li>
+                                </ul>
+                                <p>
+                                    The experience I received from here was crucial to establish my skills. I represented the 
+                                    school in cricket, football and table tennis in which I also captained the teams. My 
+                                    educational goals took off from here which is reflected in my grades. I was one of the 7 people 
+                                    to get a perfect 10 / 10 CGPA in 10th grade, and the <b>second highest scorer</b> in school in 12th grade
+                                    in computer science branch.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2010 - March 2014</p>
+                                <h3 class="item-title">Vaels International</h3>
+                                <h5>Middle school</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>
+                                    I cherish my time spent at this institution because it set the base for future learning.
+                                    I got the opportunity to interact with people from different backgrounds
+                                    which was insightful. I also demonstrated capabilities in sports like cricket and 
+                                    football where I represented my school in tournament. I also received exposure to public
+                                    speaking and quality education.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services ss-dark target-section">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Skills</h2>
+
+                <p class="section-desc">
+                    After studying computer science for 6 years, these are things I have mastered.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <!-- <div class="item-service__content"> -->
+                    <h4 class="item-title">Programming</h4>
+                    <p>
+                        I have worked in over 7 different programming languages. <b>Swift, Python, C and C++</b> are 
+                        some of the languages that I have excelled in. Swift and python are my favourite languages to 
+                        work on. However, I have 5+ years of experience with C++.
+                    </p>
+                <!-- </div> -->
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <!-- <div class="item-service__content"> -->
+                    <h4 class="item-title">Database</h4>
+                    <p>
+                        My first experience with database was with SQL in the senior year of 
+                        highschool. Since then, I have worked with databases like Firebase Firestore and MySQL 
+                        to perform database functionality. I have also used SQLite in my mobile applications to store users'
+                        data using the CoreData framework.
+                    </p>
+                <!-- </div> -->
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <!-- <div class="item-service__content"> -->
+                    <h4 class="item-title">UI / UX Design</h4>
+                    <p>
+                        Having designed 3 mobile applications and this website, I understand user interface and user 
+                        experience concepts that provided the users the best experience. I am familar with HTML and
+                         CSS which I used to design this website. I design my apps programmatically with frameworks like UIKit 
+                         and swiftUI.
+                    </p>
+                </div>
+            <!-- </div> -->
+        </div> 
+
+    </section> 
+
+
+    <!-- works
+    ================================================== -->
+    <!-- <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">The journey of life</h2>
+                <p class="section-desc">
+                    Sometimes, I like to sit back and reflect on my life. It gives me a perspective of where I was in the past, and where I am today.
+                </p>
+            </div>
+        </div>  -->
+        <!-- end heading-block -->
+
+        <!-- <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div> -->
+    
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-city-building.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/city-building.jpg" >
+                                     < srcset="images/portfolio/city-building.jpg 1x, images/portfolio/city-building@2x.jpg 2x" alt=""> 
+                            </a>    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                City Building
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end masonry__brick -->
+    
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Woodcraft
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                The Beetle
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg" 
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Shutterbug
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Lamp
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end masonry__brick -->
+        
+                <!-- <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Fuji
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end masonry__brick -->
+
+            <!-- </div>  -->
+            <!-- end masonry -->
+
+        <!-- </div>  -->
+        <!-- end masonry-wrap -->
+
+    </section> <!-- end s-work -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading" style="color: black;">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                
+
+                <p class="section-desc" style="color: black;">
+                    I enjoy working with people who love what they do. I would be glad to collaborate on ideas or project for someone who strive for bigger things.
+                    Let's work together and build something awesome!
+                <!-- <a href="mailto:#0">Email Me</a>. -->
+                    <p class="contact-email">
+                        <a href="mailto:#0">shubhamarya11099@gmail.com</a>
+                    </p>
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-7 medium-full contact-social" >
+                <h3 style="color: black;">Connect</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/TheShubhamArya" target="_blank" style="color: gray;">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/shubham-arya-11099/" target="_blank" style="color: gray;">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://apps.apple.com/us/developer/shubham-arya/id1522679200" target="_blank" style="color: gray;">
+                            <i class="fab fa-app-store-ios" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-link" href="https://www.instagram.com/_shubhamarya_/" target="_blank" style="color: gray;">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Shubham Arya 2020 - 2021</span> 
+                <span>Created on december 18, 2020. Last updated on July 14, 2021</span>
+                <span>Design inspired by <a href="https://www.styleshout.com/" style="color: gray;">StyleShout</a></span>
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- photoswipe background
+    ================================================== -->
+    <!-- <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> -->
+    <!-- end photoSwipe background -->
+
+
+</main>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>

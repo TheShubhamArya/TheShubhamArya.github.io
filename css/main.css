@@ -1892,7 +1892,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:600px) {
   .header-logo {
-    left: 35px;
+    left: 25px;
   }
 
 }
@@ -3394,9 +3394,9 @@ input::-moz-focus-inner {
     font-size: 3rem;
   }
 
-  .contact-infos {
+  /* .contact-infos { */
     /* margin-top: 9.6rem; */
-  }
+  /* } */
 
 }
 

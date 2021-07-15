@@ -2136,7 +2136,8 @@ input::-moz-focus-inner {
 
   .intro-text {
     -webkit-transform: translate3d(0, -4.8rem, 0);
-    transform: translate3d(0, -4.8rem, 0);
+    /* transform: translate3d(0, -4.8rem, 0); */
+    transform: translate3d(0, -26.8rem, 0);
   }
 
   .intro-text h1 {

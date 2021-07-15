@@ -2137,7 +2137,7 @@ input::-moz-focus-inner {
   .intro-text {
     -webkit-transform: translate3d(0, -4.8rem, 0);
     /* transform: translate3d(0, -4.8rem, 0); */
-    transform: translate3d(0, -23.8rem, 0);
+    transform: translate3d(0, -25.8rem, 0);
   }
 
   .intro-text h1 {
@@ -2440,7 +2440,8 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-about {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding-top: 10rem;
   }
 
   .s-about .row {
@@ -2619,8 +2620,10 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-services {
-    padding-top: 16rem;
-    padding-bottom: 16rem;
+    /* padding-top: 16rem; */
+    padding-top: 10rem;
+    /* padding-bottom: 16rem; */
+    padding-bottom: 10rem;
   }
 
   .services-list {
@@ -2953,7 +2956,8 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-works {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding-top: 10rem;
   }
 
   .masonry-wrap {
@@ -3223,7 +3227,8 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-testimonials {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding-top: 10rem;
     text-align: center;
   }
 
@@ -3418,7 +3423,8 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-contact {
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding-top: 10rem;
   }
 
   .contact-email {

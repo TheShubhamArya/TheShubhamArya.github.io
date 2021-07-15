@@ -10,6 +10,7 @@ body{
 }
 .blog-card{
     margin: 3% 0 3%;
+    padding: 0% 2%;
 }
 .blog-links:hover{
     color: grey;
@@ -19,6 +20,19 @@ body{
     margin-top: 5%;
     background-color: #fafafa;
 }
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-top: 0%;
+}
+
 .content {
     flex: 1;
     display: flex;

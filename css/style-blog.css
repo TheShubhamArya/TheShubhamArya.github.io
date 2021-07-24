@@ -31,6 +31,11 @@ body{
 
 .card-title {
     margin-top: 0%;
+    text-align: center;
+}
+
+.card-subtitle {
+    text-align: center;
 }
 
 .content {
@@ -91,6 +96,11 @@ section {
     width: 100%;
 }
 @media (max-width: 500px) { 
+    .blog-card{
+        margin: 3% 0 3%;
+        padding: 5% 15%;
+    }
+
     #navigation{
         margin: 1% 4% 0;
     }
@@ -103,10 +113,35 @@ section {
         padding: 0 0 1rem;
     }
 }
-@media (min-width: 500px) and (max-width: 1050px) {
+
+@media (min-width: 500px) and (max-width: 800px) { 
+    .blog-card{
+        margin: 3% 0 3%;
+        /* padding: 5% 25%; */
+        width: 50%;
+    }
+
+    #navigation{
+        margin: 1% 4% 0;
+    }
+    .title{
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 2em;;
+    }
+    .navbar{
+        padding: 0 0 1rem;
+    }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
     #blog-body{
         margin: 2% 10% 0;
     }
+    .blog-card{
+        margin: 3% 0 3%;
+        padding: 3% 2%;
+    }
+
     #navigation{
         margin: 1% 12% 0;
     }

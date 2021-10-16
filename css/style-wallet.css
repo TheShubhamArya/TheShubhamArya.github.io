@@ -120,7 +120,7 @@
   }
   #title{
     margin-right: 0;
-    background-color: #5c17fc;/* #ba45f5;*/
+    /* background-color: #5c17fc;#ba45f5; */
     background-image: linear-gradient(to right, #003bb5 , #0077b5);
     color: white;
   }

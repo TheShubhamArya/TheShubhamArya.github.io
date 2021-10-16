@@ -114,6 +114,7 @@ h1{
 }
 #title{
   background-color: #1cac78;
+  background-image: linear-gradient(to right, #1cac78, #32CD32);
   color: white;
 }
 .testimonial-text{

@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Unlimited Color and Gradients",
+      "subtitle": "With Neon-Pro you can capture unlimited colors and gradients.",
+      "imageName": "bell.circle.fill"
+    },
+    {
+      "id": 2,
+      "title": "Precise colors from Image",
+      "subtitle": "Pick colors from exact spots in images.",
+      "imageName": "eyedropper.halffull"
+    },
+    {
+      
+      "id": 3,
+      "title": "Unlimited Buckets",
+      "subtitle": "Create and Save unlimited color buckets!",
+      "imageName": "rectangle.split.3x1"
+    },
+    {
+      "id": 4,
+      "title": "Image Pallet Stickers",
+      "subtitle": "Generate beautiful strips of colors from images and share them anywhere including to your Instagram stories.",
+      "imageName": "line.horizontal.3.circle.fill"
+    },
+    {
+      "id": 5,
+      "title": "Alternate App Icons",
+      "subtitle": "Choose from 9 different app icons and make Neon reflect your personality on your home screen.",
+      "imageName": "smallcircle.circle.fill"
+    },
+    {
+      "id": 6,
+      "title": "Random Gradients",
+      "subtitle": "Swipe through computer generated Random gradients and save any of them to your library to use as your wallpaper or to share anywhere else.",
+      "imageName": "rectangle.fill.on.rectangle.fill.circle.fill"
+    },
+    {
+      "id": 7,
+      "title": "iCloud Sync",
+      "subtitle": "Sync all your captures on all of your devices without performing any set-up. Truly magical.",
+      "imageName": "icloud.circle.fill"
+    },
+    {
+      "id": 8,
+      "title": "Support Indie Developer",
+      "subtitle": "This entire app is made and updated by just me. Buying Neon Pro supports me and my efforts in making apps for you. Thank you!",
+      "imageName": "person.crop.circle.fill"
+    }
+  ]

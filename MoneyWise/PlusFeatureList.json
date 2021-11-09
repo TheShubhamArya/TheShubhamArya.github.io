@@ -12,7 +12,6 @@
       "imageName": "chart.bar.doc.horizontal.fill"
     },
     {
-      
       "id": 3,
       "title": "Category reports",
       "subtitle": "Get statistics of all your past transactions in a category. This helps you identify your spending in a category. Use the in-built filters to make the most of it.",
@@ -21,7 +20,7 @@
     {
       "id": 4,
       "title": "iCloud sync",
-      "subtitle": "Synchronise all your data on \(K.appName) across all your devices that use the same apple ID.",
+      "subtitle": "Synchronise all your data on Money-Wise across all your devices that use the same apple ID.",
       "imageName": "icloud.fill"
     },
     {
@@ -39,13 +38,13 @@
     {
       "id": 7,
       "title": "Future updates",
-      "subtitle": "Get all the exciting new updates and features with \(K.appName) Plus. You do not need to pay on this app ever again! \n ",
+      "subtitle": "Get all the exciting new updates and features with Money-Wise Plus. You do not need to pay on this app ever again!",
       "imageName": "person.crop.circle.fill"
     },
     {
       "id": 8,
       "title": "Support Indie Developer",
-    "subtitle": "This app is made and updated completely by me. Buying \(K.appName) Plus supports me and my efforts in making apps for you. Thank you!",
+    "subtitle": "This app is made and updated completely by me. Buying Money-Wise Plus supports me and my efforts in making apps for you. Thank you!",
       "imageName": "person.crop.circle.fill"
     }
   ]

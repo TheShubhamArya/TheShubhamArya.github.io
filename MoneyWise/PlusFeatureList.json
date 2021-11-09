@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Currency converter",
+      "subtitle": "Make transactions in other currencies. It automatically converts it to your default currency by using the daily conversion rate.",
+      "imageName": "arrow.left.arrow.right.circle.fill"
+    },
+    {
+      "id": 2,
+      "title": "Reports",
+      "subtitle": "Get monthly and all time diagnostic reports for all your past transactions. With pretty and informative graphs, it helps you to understand your spending habits, and how you could stay on your budget.",
+      "imageName": "chart.bar.doc.horizontal.fill"
+    },
+    {
+      
+      "id": 3,
+      "title": "Category reports",
+      "subtitle": "Get statistics of all your past transactions in a category. This helps you identify your spending in a category. Use the in-built filters to make the most of it.",
+      "imageName": "chart.bar.xaxis"
+    },
+    {
+      "id": 4,
+      "title": "iCloud sync",
+      "subtitle": "Synchronise all your data on \(K.appName) across all your devices that use the same apple ID.",
+      "imageName": "icloud.fill"
+    },
+    {
+      "id": 5,
+      "title": "Unlimited categories",
+      "subtitle": "Add as many categories as you want with unlimited customizations! There is literally no limit.",
+      "imageName": "number"
+    },
+    {
+      "id": 6,
+      "title": "Customizations",
+      "subtitle": "Add custom transaction modes when adding a transaction. These help you filter out your expenses. Also select a different app icon from the setting.",
+      "imageName": "rectangle.grid.2x2.fill"
+    },
+    {
+      "id": 7,
+      "title": "Future updates",
+      "subtitle": "Get all the exciting new updates and features with \(K.appName) Plus. You do not need to pay on this app ever again! \n ",
+      "imageName": "person.crop.circle.fill"
+    },
+    {
+      "id": 8,
+      "title": "Support Indie Developer",
+    "subtitle": "This app is made and updated completely by me. Buying \(K.appName) Plus supports me and my efforts in making apps for you. Thank you!",
+      "imageName": "person.crop.circle.fill"
+    }
+  ]

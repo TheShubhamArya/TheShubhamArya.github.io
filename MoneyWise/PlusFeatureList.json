@@ -37,18 +37,24 @@
     },
     {
       "id": 7,
+      "title": "Add & Edit History",
+      "subtitle": "Add transaction you forgot to add in previous months' or edit a mistake from previous month.",
+      "imageName": "scribble"
+    },
+    {
+      "id": 8,
       "title": "Maps",
       "subtitle": "Map all your transactions in category and full reports to see where you spend your money.",
       "imageName": "mappin.and.ellipse"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Future updates",
       "subtitle": "Get all the exciting new updates and features with Money-Wise Plus. You do not need to pay on this app ever again!",
       "imageName": "clock"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Support Indie Developer",
       "subtitle": "This app is made and updated completely by me. Buying Money-Wise Plus supports me and my efforts in making apps for you. Thank you!",
       "imageName": "person.crop.circle.fill"

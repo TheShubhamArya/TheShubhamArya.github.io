@@ -1,7 +1,12 @@
 [
   {
+      "date": "2024-03-14T17:30:00Z",
+      "title": "Transaction activity",
+      "message": "Money-Wise version 4.2 brings transaction activities.\n\nNow you can add a transaction as a **“credit”** in addition to the existing **“expense”** for a category.\n\nThis is useful for keeping track of *refunds or cash back* that have been made to you."
+    },
+  {
       "date": "2024-03-09T17:30:00Z",
       "title": "Hello",
-      "message": "This is a **new feature** that allows me to share information about promotions, new feature updates, bug avoidance, and other information without updating the app. "
+      "message": "This is a **new feature** that allows me to share information about promotions, new feature updates, bug avoidance, and other information directly to you. "
     }
 ]

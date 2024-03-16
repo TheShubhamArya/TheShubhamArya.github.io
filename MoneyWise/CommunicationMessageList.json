@@ -1,5 +1,10 @@
 [
   {
+      "date": "2024-03-16T17:30:00Z",
+      "title": "Update 4.3: Transaction modes and Ads",
+      "message": "There is an easier way to add more **modes** (like debit and credit cards). When entering a transaction, tap on the transaction mode menu to see the list of modes. At the bottom of this list, you will see an option to add more transaction modes.\n\nThis update also improves the experience of **editing** a transaction.\n\nFinally, this update incorporates **ads** designed not to disrupt your app usage experience."
+    },
+  {
       "date": "2024-03-14T17:30:00Z",
       "title": "Update 4.2: Transaction Activity",
       "message": "Now you can add a transaction as a **“credit”** in addition to the existing **“expense”** for a category.\n\nThis is useful for keeping track of *refunds or cash back* that have been made to you."

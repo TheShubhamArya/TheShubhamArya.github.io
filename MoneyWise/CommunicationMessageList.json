@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-03-28T19:01:00Z",
+    "title": "Update 4.4 is coming soon!",
+    "message": "Next week, you can expect the following inclusions and changes in this app:\n\n1. **Month-end wrap-up**: Once the month is over, you will see a summary of the past month (and how you budgeted) before you can start with the next month.\n\n2. **Income details** from a month are transferred to the next month. Previously, only the total income was passed to the next month.\n\n3. The **default transaction name** (if you do not enter a transaction name) will now be your location name (if you have given access to your location). \n\n4. New screen for adding an income.\n\n5. Financial overview in the Home Screen now includes transaction modes (“modes”) and recurring transactions (“Repeating”).\n\n6. **Interactive graphs** in the full report and category stats.\n\n7. Tap the category amount on the Home Screen to **toggle** between seeing the **amount** or the **percentage** of your total expense. \n\n8. Minor refreshment to the category-wise statistics screen.\n\n9. Removal of the option to change app icons.\n\n10. Bug fixes and performance enhancement."
+  },
+  {
       "date": "2024-03-16T17:30:00Z",
       "title": "Update 4.3: Transaction modes and Ads",
       "message": "There is an easier way to add more **modes** (like debit and credit cards). When entering a transaction, tap on the transaction mode menu to see the list of modes. At the bottom of this list, you will see an option to add more transaction modes.\n\nThis update also improves the experience of **editing** a transaction.\n\nFinally, this update incorporates **ads** designed not to disrupt your app usage experience."

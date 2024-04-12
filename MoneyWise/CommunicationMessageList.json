@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-04-12T14:00:00Z",
+    "title": "Update 4.5 is coming soon!",
+    "message": "This update will bring **recurring incomes** that will allow you to add income for any duration (and not be limited to *1-month duration* like before).\n**Note**:\n1. Your previous incomes that are not marked as repeating will not repeat. If you would like them to repeat, edit your previous incomes to make them repeat for your specified duration.\n2. Your income can only be seen on/after the day it is intended to repeat. You will not see it before that day. You can go to Financial overview -> Repeating to see when it is going to repeat. "
+  },
+  {
     "date": "2024-03-28T19:01:00Z",
     "title": "Update 4.4 is coming soon!",
     "message": "Next week, you can expect the following inclusions and changes in this app:\n\n1. **Month-end wrap-up**: Once the month is over, you will see a summary of the past month (and how you budgeted) before you can start with the next month.\n\n2. **Income details** from a month are transferred to the next month. Previously, only the total income was passed to the next month.\n\n3. The **default transaction name** (if you do not enter a transaction name) will now be your location name (if you have given access to your location). \n\n4. New screen for adding an income.\n\n5. Financial overview in the Home Screen now includes transaction modes (“modes”) and recurring transactions (“Repeating”).\n\n6. **Interactive graphs** in the full report and category statistic screens. You can tap on a point on a graph to see its value.\n\n7. Tap the category amount on the Home Screen to **toggle** between seeing the **amount** or the **percentage** of your total expense. \n\n8. Minor refreshment to the category-wise statistics screen.\n\n9. Removal of the option to change app icons.\n\n10. Bug fixes and performance enhancement."

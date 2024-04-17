@@ -7,8 +7,8 @@
     },
     {
       "id": 2,
-      "title": "Reports",
-      "subtitle": "Get monthly and all time diagnostic reports for all your past transactions. With pretty and informative graphs, it helps you to understand your spending habits, and how you could stay on your budget.",
+      "title": "Full reports",
+      "subtitle": "Get diagnostic reports for all your past transactions. With pretty and informative graphs, it helps you to understand your spending habits, and how you could stay on your budget.",
       "imageName": "chart.bar.doc.horizontal.fill"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "id": 4,
-      "title": "Monthly Wrap-up",
+      "title": "Monthly wrap-up",
       "subtitle": "Get a summary of your finance every month, before you start the next month.",
       "imageName": "doc.fill"
     },
@@ -37,7 +37,7 @@
     },
     {
       "id": 7,
-      "title": "Add & Edit History",
+      "title": "Add & edit history",
       "subtitle": "Add transaction you forgot to add in previous months' or edit a mistake from previous month.",
       "imageName": "scribble"
     },
@@ -50,13 +50,13 @@
     {
       "id": 9,
       "title": "Export as CSV",
-      "subtitle": "Export all your data to a CSV format with easy.",
+      "subtitle": "Export all your data to CSV format with ease.",
       "imageName": "square.and.arrow.up"
     },
     {
       "id": 10,
       "title": "Future updates",
-      "subtitle": "Get all the exciting new updates and features with Money-Wise Plus. You do not need to pay on this app ever again!",
+      "subtitle": "Get all the exciting new updates and features with Money-Wise Plus.",
       "imageName": "clock"
     }
   ]

@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-04-19T20:00:00Z",
+    "title": "Update 4.6: Automatic options",
+    "message": "This update allows you to do some automatic things like:\n\n1. **Auto-savings** to automatically add balance from a month to savings.\n\n2. Automatically **add all** the recurring items occurring in a month **at once**, instead of having them appear on the day of recurrence."
+  },
+  {
     "date": "2024-04-12T14:00:00Z",
     "title": "Update 4.5 is coming soon!",
     "message": "This update will bring **recurring incomes** that will allow you to add income for any duration (and not be limited to *1-month duration* like before).\n**Note**:\n1. Your previous incomes that are not marked as repeating will not repeat. If you would like them to repeat, edit your previous incomes to make them repeat for your specified duration.\n2. Your income can only be seen on/after the day it is intended to repeat. You will not see it before that day. You can go to Financial overview -> Repeating to see when it is going to repeat. "

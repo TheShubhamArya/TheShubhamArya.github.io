@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-04-29T23:00:00Z",
+    "title": "Update 4.7 is coming soon!",
+    "message": "This update will bring improvements to notifications. If a user has been inactive for a prolonged period (between 3-7 days), we will send a reminder to get back to budget. You will be able to turn this off in Settings > Automatic options > Remind me to budget."
+  },
+  {
     "date": "2024-04-19T20:00:00Z",
     "title": "Update 4.6: Automatic options",
     "message": "This update allows you to do some automatic things like:\n\n1. **Auto-savings** to automatically add balance from a month to savings.\n\n2. Automatically **add all** the recurring items occurring in a month **at once**, instead of having them appear on the day of recurrence."

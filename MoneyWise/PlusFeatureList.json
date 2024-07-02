@@ -1,5 +1,11 @@
 [
     {
+      "id": 0,
+      "title": "Ad-Free Experience",
+      "subtitle": "Enjoy uninterrupted financial management with no ads.",
+      "imageName": "nosign"
+    },
+    {
       "id": 1,
       "title": "Currency converter",
       "subtitle": "Make transactions in other currencies. It automatically converts it to your default currency by using the daily conversion rate.",

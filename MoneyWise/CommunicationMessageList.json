@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-07-03T08:00:00Z",
+    "title": "Changes to Ads",
+    "message": "With update 4.7.2 this week, Money-Wise Plus users will not be seeing any ads anymore."
+  },
+  {
     "date": "2024-04-29T23:00:00Z",
     "title": "Update 4.7 is coming soon!",
     "message": "This update will bring improvements to notifications. If a user has been inactive for a prolonged period (between 3-7 days), we will send a reminder to get back to budget. You will be able to turn this off in Settings > Automatic options > Remind me to budget."

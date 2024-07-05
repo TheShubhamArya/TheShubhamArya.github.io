@@ -1,5 +1,10 @@
 [
   {
+    "date": "2024-07-05T11:00:00Z",
+    "title": "Update 4.8: Universal search",
+    "message": "This feature allows you to search for any transaction, category, income, saving, or month quickly to view or edit it. From the home screen > go to history > scroll down to activate the search bar, and SEARCH!"
+  },
+  {
     "date": "2024-07-03T08:00:00Z",
     "title": "Changes to Ads",
     "message": "With update 4.7.2 this week, Money-Wise Plus users will not be seeing any ads anymore."

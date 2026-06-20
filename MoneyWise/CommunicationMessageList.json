@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-20T11:00:00Z",
+    "title": "Update 4.10: New Glass Design",
+    "message": "1. Refreshed glass design for devices running iOS 26 or later.\n\n2. Move expenses between categories while editing\n\n3. Monthly Wrap-ups are now also available in Simplified Chinese and Spanish."
+  },
+  {
+    "date": "2026-04-17T11:00:00Z",
+    "title": "Update 4.9: Spanish support for the app",
+    "message": "1. Expanded language support, including Spanish and Simplified Chinese.\n\n2. Faster expense tracking with your last-used payment method remembered automatically.\n\n3. Create and manage custom categories more easily."
+  },
+  {
     "date": "2024-07-06T11:00:00Z",
     "title": "Update 4.8: Universal search",
     "message": "This feature allows you to search for any transaction, category, income, saving, or month quickly to view or edit it. From the home screen > go to history > scroll down to activate the search bar, and SEARCH!"

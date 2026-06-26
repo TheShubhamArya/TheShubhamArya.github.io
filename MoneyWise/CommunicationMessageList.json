@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-06-26T11:00:00Z",
+    "title": "Update 4.11 is coming soon!",
+    "message": "1. A completely redesigned Monthly Reports experience that's easier to understand.\n\n2. More flexible budget exports — choose exactly which fields and months to export."
+  },
+  {
     "date": "2026-06-20T11:00:00Z",
     "title": "Update 4.10: New Glass Design",
     "message": "1. Refreshed glass design for devices running iOS 26 or later.\n\n2. Move expenses between categories while editing\n\n3. Monthly Wrap-ups are now also available in Simplified Chinese and Spanish."

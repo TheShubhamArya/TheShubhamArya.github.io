@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-05T11:00:00Z",
+    "title": "Update 5.3: Add transactions to any month!",
+    "message": "Forgot to add a transaction last month—or want to add one for a future month? Now you can easily add transactions to past or future months directly from the current month. Just pick the date you need, and we'll add it there."
+  },
+  {
     "date": "2026-07-11T11:00:00Z",
     "title": "Update 5.0: Budgets, Activities, and more!",
     "message": "1. Budgets: A dedicated space to set and view progress of category budgets in financial overview.\n\n2. Activity heat map: Scroll right in home to see your activity heat map.\n\n3. A discount on Money-Wise Plus for users in Mexico, China, and India."
